@@ -6,4 +6,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="GET_OFFER">Get Offer</string>
+    <string name="ALL_OFFER">View All Offers(25)</string>
+
+    <string-array name="descriptions">
+        <item>Upto 20% offer on Mobile case &amp; covers on amazon</item>
+        <item>Upto 20% offer on Mobile case &amp; covers on Sanpdeal</item>
+
+    </string-array>
 </resources>

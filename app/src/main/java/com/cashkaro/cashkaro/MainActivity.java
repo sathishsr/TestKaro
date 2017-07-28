@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.cashkaro.cashkaro.Home.HomeFragment;
 import com.cashkaro.cashkaro.utils.FragmentChangeListener;
 
 public class MainActivity extends AppCompatActivity
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        addFragment(new HomeFragment());
     }
 
     @Override
